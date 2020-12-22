@@ -1,0 +1,31 @@
+{
+    "loading": "Laden",
+    "divisions": "Unternehmensbereiche",
+    "countries": "Länder",
+    "companies": "Gesellschaften",
+    "locations": "Standorte",
+    "fields": "Berufsfelder",
+  
+    "divisions-placeholder": "Unternehmensbereiche hinzufügen",
+    "countries-placeholder": "Länder hinzufügen",
+    "companies-placeholder": "Gesellschaften hinzufügen",
+    "locations-placeholder": "Standorte hinzufügen",
+    "fields-placeholder": "Berufsfelder hinzufügen",
+  
+    "search": "Suche",
+    "search-placeholder": "Suchbegriff eingeben",
+  
+    "tablecolum-jobtitle": "Stellentitel",
+    "tablecolum-company" : "Gesellschaft",
+    "tablecolum-location": "Standort",
+  
+    "fulltextsearch": "Volltextsuche aktiv",
+    "fulltextsearch-content": "Bitte beachten Sie, dass Filter bei Benutzung der Volltextsuche nicht beachtet werden.",
+  
+    "noresults": "Für die angegebenen Filter bzw. den Suchbegriff wurden keine Jobs gefunden.",
+
+    "searchresults" : "($1 Ergebnisse)",
+
+    "reset-allfilters": "Alle Filter zurücksetzen"
+  }
+  

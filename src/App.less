@@ -4,6 +4,22 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #E5E5E5;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
 .ant-layout {
   background: transparent;
   max-width: 1600px;
@@ -31,42 +47,19 @@ html {
 
 //Less imports
 
-
+@import "./less/Header.less";
+@import "./less//Applicants.less";
 
 //Display none media queries
 
-.hidden-md-down {
+.hidden-below-medium {
   @media only screen and (max-width: @screen-md-max) {
-    display: none;
-  }
-}
-
-.hidden-lg-down {
-  @media only screen and (max-width: @screen-lg-max) {
-    display: none;
-  }
-}
-
-.hidden-xl-down {
-  @media only screen and (max-width: @screen-xl-min) {
     display: none !important;
   }
 }
 
-.hidden-md-up {
-  @media only screen and (min-width: @screen-md-min) {
+.hidden-above-medium {
+  @media only screen and (min-width: @screen-md-max) {
     display: none !important;
-  }
-}
-
-.hidden-lg-up {
-  @media only screen and (min-width: @screen-lg-min) {
-    display: none;
-  }
-}
-
-.hidden-xl-up {
-  @media only screen and (min-width: @screen-xl) {
-    display: none;
   }
 }
