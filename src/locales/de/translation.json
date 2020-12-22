@@ -1,31 +1,23 @@
 {
-    "loading": "Laden",
-    "divisions": "Unternehmensbereiche",
-    "countries": "Länder",
-    "companies": "Gesellschaften",
-    "locations": "Standorte",
-    "fields": "Berufsfelder",
-  
-    "divisions-placeholder": "Unternehmensbereiche hinzufügen",
-    "countries-placeholder": "Länder hinzufügen",
-    "companies-placeholder": "Gesellschaften hinzufügen",
-    "locations-placeholder": "Standorte hinzufügen",
-    "fields-placeholder": "Berufsfelder hinzufügen",
-  
-    "search": "Suche",
-    "search-placeholder": "Suchbegriff eingeben",
-  
-    "tablecolum-jobtitle": "Stellentitel",
-    "tablecolum-company" : "Gesellschaft",
-    "tablecolum-location": "Standort",
-  
-    "fulltextsearch": "Volltextsuche aktiv",
-    "fulltextsearch-content": "Bitte beachten Sie, dass Filter bei Benutzung der Volltextsuche nicht beachtet werden.",
-  
-    "noresults": "Für die angegebenen Filter bzw. den Suchbegriff wurden keine Jobs gefunden.",
+    "applicant-heading": "Bewerber",
+    "total": "Gesamt",
+    "new": "Neu",
+    "viewed": "Besichtigt",
+    "appointment": "Termin vereinbart",
+    "others": "Andere",
+    "search-placeholder": "Nach Bewerber suchen",
+    "descending": "absteigend",
+    "ascending": "aufsteigend",
+    "property-viewed": "Besichtigt",
+    "appointment-set": "Termine",
+    "interessted": "Interessiert",
+    "offer-accepted": "Angebot angenommen",
 
-    "searchresults" : "($1 Ergebnisse)",
+    "contact-support": "Support kontaktieren",
+    "logout": "Ausloggen",
 
-    "reset-allfilters": "Alle Filter zurücksetzen"
+    "server-error": "Serverfehler! Bitte versuchen Sie es später erneut.",
+    "reload": "Neu laden",
+    "no-applicants-error": "Keine Bewerber verfügbar."
   }
   

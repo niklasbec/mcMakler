@@ -6,6 +6,7 @@ import { ReactComponent as User } from "../../../images/svg/user.svg";
 import { ReactComponent as Logout } from "../../../images/svg/logout.svg";
 import Logo from "../../../images/svg/logo.svg";
 import { motion as m } from "framer-motion";
+import t from "../../../utils/getTranslation";
 
 const Header = () => {
   const [menuBool, setMenuBool] = useState<boolean>(false);
@@ -27,7 +28,7 @@ const Header = () => {
 
       <div className="header-right hidden-below-medium">
           <div className="contact-support">
-            <Support /> <p>Contact Support</p>
+            <Support /> <p>{t("contact-support")}</p>
           </div>
           <Message className="notification-icon" />
           <User />
@@ -44,18 +45,18 @@ const Header = () => {
           <BurgerMenu className="burger-menu-icon" onClick={toggleMenu} />
           <div className="menu-items">
             <div className="menu-item" onClick={toggleMenu}>
-              <a className="nostyle" href="#projects">
-                <Support /> <p>Contact Support</p>
+              <a className="nostyle">
+                <Support /> <p>{t("contact-support")}</p>
               </a>
             </div>
             <div className="menu-item" onClick={toggleMenu}>
-              <a className="nostyle" href="#medium">
+              <a className="nostyle">
                 <User /> <p>Dashboard</p>
               </a>
             </div>
             <div className="menu-item" onClick={toggleMenu}>
-              <a className="nostyle" href="mailto:niklasbeckerr@gmail.com">
-                <Logout width="25px" /> <p>Logout</p>
+              <a className="nostyle">
+                <Logout width="25px" /> <p>{t("contact-support")}</p>
               </a>
             </div>
           </div>

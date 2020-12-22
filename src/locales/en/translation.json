@@ -1,30 +1,23 @@
 {
-  "loading": "Loading",
-  "divisions": "Divisions",
-  "countries": "Countries",
-  "companies": "Companies",
-  "locations": "Locations",
-  "fields": "Job fields",
+  "applicant-heading": "Applicants",
+  "total": "Total",
+  "new": "New",
+  "viewed": "Viewed",
+  "appointment": "Appointment",
+  "others": "Others",
+  "search-placeholder": "Search for applicant",
+  "descending": "Descending",
+  "ascending": "Ascending",
+  "property-viewed": "Property Viewed",
+  "appointment-set": "Appointment Set",
+  "interessted": "Interessted",
+  "offer-accepted": "Offer Accepted",
 
-  "divisions-placeholder": "Add divisions",
-  "countries-placeholder": "Add countries",
-  "companies-placeholder": "Add companies",
-  "locations-placeholder": "Add locations",
-  "fields-placeholder": "Add job fields",
+  "contact-support": "Contact Support",
+  "logout": "Logout",
 
-  "search": "Search",
-  "search-placeholder": "Provide a search term",
+  "server-error": "Servererror! Please try again later.",
+  "reload": "Reload",
+  "no-applicants-error": "No matching applicants."
 
-  "tablecolum-jobtitle": "Job title",
-  "tablecolum-company" : "Company",
-  "tablecolum-location": "Location",
-
-  "fulltextsearch": "Fulltextsearch active",
-  "fulltextsearch-content": "Please take into cosideration that if the fulltextsearch is used, the filters are disabled",
-
-  "noresults": "No jobs have been found for your current filters / search",
-
-  "searchresults" : "($1 results)",
-
-  "reset-allfilters": "Reset all filters"
 }
