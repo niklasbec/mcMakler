@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div className="header">
       <BurgerMenu className="burger-menu-icon" onClick={toggleMenu} />
-      <img src={Logo} className="logo" width="100px" />
+      <img src={Logo} className="logo" alt="logo" width="100px" />
       <Message className="notification-icon hidden-above-medium" />
 
       <div className="header-right hidden-below-medium">
