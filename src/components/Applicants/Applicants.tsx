@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Input, Select, Spin, Result, Button } from "antd";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { SearchOutlined, ArrowLeftOutlined} from "@ant-design/icons";
 import mockData from "../../apiData/data.js";
-import { ReactComponent as Back } from "../../images/svg/back.svg";
 import ApplicantCard from "./ApplicantCard";
 import t from "../../utils/getTranslation";
 import useEffectNoInitial from "../../utils/useEffectNotOnInitialRender";
+import { useDispatch } from "react-redux";
 
 const { Option } = Select;
 
@@ -21,7 +21,7 @@ const Applicants = (props: any) => {
   const [serverError, setServerError] = useState<boolean>(false);
   const [queryParam, setQueryParam] = useState<string>("");
   const { id } = useParams();
-  const history = useHistory();
+  const dispatch = useDispatch();
 
   const prefix = (
     <SearchOutlined
@@ -76,6 +76,11 @@ const Applicants = (props: any) => {
     let tempAppointments: any[] = [];
     let tempOther: any[] = [];
     let newItemsCount = 0;
+
+    dispatch({
+      type: "SET_APPLICANTS",
+      payload: mockData
+    })
 
     mockData.applicants.map((curr: any) => {
       if (curr.new) {

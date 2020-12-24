@@ -5,7 +5,7 @@ const categoriesReducer = (state = initialState, action: any) => {
     const {type, payload} = action
 
     switch (type) {
-        case "SET_CATEGORIES":
+        case "SET_APPLICANTS":
             //Sets all Products into State, overwrites old Product State
             return [payload]
             //Default case, just returns the initialState/currentState
